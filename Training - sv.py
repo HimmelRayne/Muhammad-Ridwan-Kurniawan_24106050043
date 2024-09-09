@@ -1,0 +1,12 @@
+name = str(input('Masukkan Nama Anda: '))
+addr = str(input('Masukkan Tempat Tinggal Anda: '))
+tgl = str(input('Masukkan Tanggal Lahir Anda (DD MM): '))
+th = int(input('Masukkan Tahun lahir: '))
+
+print('- - - - - - - - - - - - - - - -')
+print('Nama: ' , name)
+print('Alamat: ' , addr)
+print('Tanggal Lahir: ' , str(tgl) , int(th) )
+print('Umur: ' , 2023 - th)
+print('- - - - - - - - - - - - - - - -')
+print('GET OU--')
